@@ -97,7 +97,8 @@
         default : 'en'
       },
       currentMonth: {
-        type: String
+        type: Date,
+        default: new Date()
       },
       firstDay : {
         type : Number | String,
