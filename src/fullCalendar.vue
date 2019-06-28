@@ -150,6 +150,7 @@
       getCalendar () {
         // calculate 2d-array of each month
         let monthViewStartDate = dateFunc.getMonthViewStartDate(this.currentMonth, this.firstDay);
+        console.log(monthViewStartDate)
         let calendar = [];
 
         for(let perWeek = 0 ; perWeek < 6 ; perWeek++) {
